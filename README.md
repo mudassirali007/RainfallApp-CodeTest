@@ -27,3 +27,45 @@ Open the integrated terminal in Visual Studio Code (Ctrl+\`) and run the followi
 ```bash
 dotnet restore
 dotnet build
+
+
+## Running the Application
+
+Before running the application, ensure that your data files (`Data1.csv`, `Data2.csv`, and `Devices.csv`) are placed in accessible directories. Here are steps to run the application:
+
+1. **Open the Terminal:**
+   - Navigate to the project directory using the terminal or command prompt.
+
+2. **Execute the Application:**
+   - Run the application by typing the following command and pressing Enter:
+     ```bash
+     dotnet run
+     ```
+
+3. **Provide the Required Paths:**
+   - The application will first ask for the path to the folder containing the rainfall data CSV files. Enter the full path to this folder. 
+     - Example on Windows:
+       ```
+       Enter the path to the folder containing the rainfall data CSV files:
+       C:\Users\YourUsername\Documents\RainfallApp\Data
+       ```
+     - Example on macOS or Linux:
+       ```
+       Enter the path to the folder containing the rainfall data CSV files:
+       /Users/YourUsername/Documents/RainfallApp/Data
+       ```
+   - Next, the application will ask for the path to the `Devices.csv` file. Enter the full path to where this file is stored.
+     - Example on Windows:
+       ```
+       Enter the path to the Devices.csv file:
+       C:\Users\YourUsername\Documents\RainfallApp\Devices.csv
+       ```
+     - Example on macOS or Linux:
+       ```
+       Enter the path to the Devices.csv file:
+       /Users/YourUsername/Documents/RainfallApp/Devices.csv
+       ```
+
+### Notes on Paths:
+- Ensure that you replace `YourUsername` and other placeholders with actual user names and paths corresponding to where the files are stored on your machine.
+- Be aware that paths are case-sensitive on Unix-like systems (macOS and Linux), so you must enter them exactly as they are on your file system.

@@ -27,7 +27,7 @@ Open the integrated terminal in Visual Studio Code (Ctrl+\`) and run the followi
 ```bash
 dotnet restore
 dotnet build
-
+```
 
 ## Running the Application
 
